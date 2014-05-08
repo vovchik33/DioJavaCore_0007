@@ -44,8 +44,5 @@ public class Main {
 
         Person[] resultMerge = ArrayWrapper.merge(persons1, persons2);
         System.out.println(Arrays.toString((resultMerge)));
-
-        Person[] resultJoin = ArrayWrapper.merge(persons1, persons2);
-        System.out.println(Arrays.toString((resultJoin)));
     }
 }
